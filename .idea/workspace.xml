@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cec73f9f-3ef3-4c50-9f68-a2ad27f14d69" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/frcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/classifier.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/classifier.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/frcnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/frcnn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/frcnn_training.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/frcnn_training.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/resnet50.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/resnet50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/rpn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nets/vgg16.py" beforeDir="false" afterPath="$PROJECT_DIR$/nets/vgg16.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary.py" beforeDir="false" afterPath="$PROJECT_DIR$/summary.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/anchors.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/anchors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/callbacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/callbacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/dataloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dataloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils_bbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils_bbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils_fit.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils_fit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/utils_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/utils_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/voc_annotation.py" beforeDir="false" afterPath="$PROJECT_DIR$/voc_annotation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,17 +91,17 @@
       <method v="2" />
     </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="faster-rcnn-pytorch" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\ProgramData\Miniconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
       <option name="PARAMETERS" value="" />
@@ -151,6 +134,12 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.anchors" />
+      <item itemvalue="Python.resnet50" />
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.voc_annotation" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.train" />
@@ -175,7 +164,8 @@
       <workItem from="1668911931349" duration="7223000" />
       <workItem from="1669009986836" duration="1698000" />
       <workItem from="1669080889284" duration="9466000" />
-      <workItem from="1669166560878" duration="477000" />
+      <workItem from="1669166560878" duration="1077000" />
+      <workItem from="1669181037035" duration="146000" />
     </task>
     <servers />
   </component>
@@ -217,7 +207,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/faster_rcnn_pytorch$anchors.coverage" NAME="anchors 覆盖结果" MODIFIED="1668665531738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
     <SUITE FILE_PATH="coverage/faster_rcnn_pytorch$voc_annotation.coverage" NAME="voc_annotation 覆盖结果" MODIFIED="1669081001090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/faster_rcnn_pytorch$train.coverage" NAME="train 覆盖结果" MODIFIED="1669085339986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/faster_rcnn_pytorch$train.coverage" NAME="train 覆盖结果" MODIFIED="1669181111471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/faster_rcnn_pytorch$resnet50.coverage" NAME="resnet50 覆盖结果" MODIFIED="1668654997531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nets" />
   </component>
 </project>
